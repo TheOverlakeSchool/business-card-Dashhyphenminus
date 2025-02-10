@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.rounded.MoreVert
 import androidx.compose.material.icons.rounded.Phone
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Scaffold
@@ -81,7 +82,7 @@ fun BusinessCard(name: String, modifier: Modifier = Modifier) {
     ) {
         Row {
             Icon(
-                Icons.Rounded.Phone,
+                Icons.Rounded.MoreVert,
                 contentDescription = stringResource(R.string.phone_logo)
             )
             Text(
@@ -100,7 +101,7 @@ fun BusinessCard(name: String, modifier: Modifier = Modifier) {
     ) {
         Row {
             Icon(
-                Icons.Rounded.Phone,
+                Icons.Rounded.MoreVert,
                 contentDescription = stringResource(R.string.phone_logo)
             )
             Text(
@@ -119,7 +120,7 @@ fun BusinessCard(name: String, modifier: Modifier = Modifier) {
     ) {
         Row {
             Icon(
-                Icons.Rounded.Phone,
+                Icons.Rounded.MoreVert,
                 contentDescription = stringResource(R.string.phone_logo)
             )
             Text(

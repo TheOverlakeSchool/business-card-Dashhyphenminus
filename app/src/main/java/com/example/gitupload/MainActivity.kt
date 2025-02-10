@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.rounded.MoreVert
 import androidx.compose.material.icons.rounded.Phone
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Scaffold
@@ -35,6 +36,7 @@ class MainActivity : ComponentActivity() {
             GitUploadTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     BusinessCard(
+                        // This is a comment that I added
                         name = "Android",
                         modifier = Modifier.padding(innerPadding)
                     )
@@ -81,7 +83,7 @@ fun BusinessCard(name: String, modifier: Modifier = Modifier) {
     ) {
         Row {
             Icon(
-                Icons.Rounded.Phone,
+                Icons.Rounded.MoreVert,
                 contentDescription = stringResource(R.string.phone_logo)
             )
             Text(
@@ -100,7 +102,7 @@ fun BusinessCard(name: String, modifier: Modifier = Modifier) {
     ) {
         Row {
             Icon(
-                Icons.Rounded.Phone,
+                Icons.Rounded.MoreVert,
                 contentDescription = stringResource(R.string.phone_logo)
             )
             Text(
@@ -119,7 +121,7 @@ fun BusinessCard(name: String, modifier: Modifier = Modifier) {
     ) {
         Row {
             Icon(
-                Icons.Rounded.Phone,
+                Icons.Rounded.MoreVert,
                 contentDescription = stringResource(R.string.phone_logo)
             )
             Text(

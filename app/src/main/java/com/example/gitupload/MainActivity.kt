@@ -5,7 +5,6 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ColumnScope
@@ -22,7 +21,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
@@ -68,8 +66,8 @@ fun BusinessCard(name: String, modifier: Modifier = Modifier) {
 @Composable
 private fun ColumnScope.NameCard() {
     Image(
-        painter = painterResource(id = R.drawable.android_logo),
-        contentDescription = stringResource(R.string.android_logo_description),
+        painter = painterResource(id = R.drawable.carbotzergling),
+        contentDescription = stringResource(R.string.Carbot_Zergling_Description),
         contentScale = ContentScale.Inside,
 
         alpha = 0.5F

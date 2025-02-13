@@ -1,8 +1,12 @@
 <resources>
     <string name="app_name">GitUpload</string>
-    <string name="android_logo_description">Standard Android Logo</string>
-    <string name="name_text">Jerone Mitchell</string>
-    <string name="phone_number">425-602-7119</string>
-    <string name="phone_logo">phone logo</string>
-    <string name="comp_sci_teacher">Comp Sci Teacher</string>
+    <string name="Carbot_Zergling_Description">Carbot Zergling</string>
+    <string name="name_text">Delta Blendea</string>
+    <string name="phone_number"> 425-417-1281</string>
+    <string name="phone">phone</string>
+    <string name="comp_sci_student">Comp Sci Student</string>
+    <string name="social_name">" @Dashhyphenminus"</string>
+    <string name="email">" 25rblendea@overlake.org"</string>
+    <string name="social">social</string>
+    <string name="mail">mail</string>
 </resources>
